@@ -1,0 +1,170 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+    text-align:center;
+}
+
+/* Write all your CSS here! */
+
+#logo-navbar
+
+{
+    background-color: #f8f9fa;
+    
+}
+#logo
+{
+    height:80px;
+    width: 150px;
+ background-image: url("images/logo.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.flags
+{
+    display: flex;
+    margin-right: 5px;
+
+}
+.us
+{
+    height:50px;
+    width:50px;
+    background-image: url("images/en-flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 3em;
+}
+.pak
+{
+    height:50px;
+    width:50px;
+    background-image: url("images/ur-flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right:2em;
+    
+}
+.china 
+{
+    height:50px;
+    width:50px;
+    background-image: url("images/zh-flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+}
+#sec-nav
+{
+background-color: #494949 !important;
+justify-content: flex-end  !important;
+
+}
+#nav-options
+{
+display: flex;
+justify-content: space-around;
+justify-content: flex-start  !important;
+
+}
+ .nav-heading
+{
+
+ margin: 5px;
+color:white;
+font-size:11px;
+
+}
+
+h3
+{
+   
+    font-size: 1em !important;
+    text-transform: uppercase;
+   
+}
+
+
+.container
+
+{
+display: flex;
+    /*width:auto;*/
+    height: 800px;
+    background-color: grey;
+    margin-top:10px; 
+    padding-right: 5px;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+
+}
+#mg-div
+{
+width: 600px;
+height:auto;
+background-color: white;
+justify-content: flex-start;
+
+
+
+}
+
+.right-div
+{
+    height:300px;
+    width:300px;
+    /*background-color: black;*/
+    margin-left: 5px;
+    padding-top: 16px;
+    
+}
+.green-div
+{
+    height:40px;
+    width:250px;
+    padding: 16px;
+    background-color: #2da745;
+}
+.image
+{
+    height:400px;
+    width:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fas,span
+{
+     color:#72ae45;
+    font-size: 16px;
+}
+h5
+{
+     color:#72ae45;
+    
+}
+.icon-div
+{
+    display:flex ;
+     height:40px;
+    width:auto;
+    margin-left:5px;
+     padding:5px;
+    border-bottom:1px solid grey;
+}
+
+h1
+{
+    margin:0px;
+}
